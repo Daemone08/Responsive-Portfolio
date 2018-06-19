@@ -1,5 +1,6 @@
 .wrapper {
-    background-image: url(../images/subtle_background.png)
+    background-image: url(../images/subtle_background.png);
+    /* width: 100%; */
 }
 
 header {
@@ -166,3 +167,38 @@ textarea {
 #clearfix {
     overflow: auto;
   }
+
+@media screen and (max-width: 980px) {
+/* The maintext width will be 680px */
+    .maintext {
+        width: 680px;
+    }
+
+    .wrapper {
+        width: 980px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+/* The maintext width will be 600px */
+    .maintext {
+        width: 600px;
+    }
+
+    .wrapper {
+        width: 768px;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+/* The maintext width will be 560px */
+    .maintext {
+        width: 560px;
+    }
+
+    .wrapper {
+        width: 640px;
+    }
+
+}
